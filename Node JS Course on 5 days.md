@@ -36,6 +36,7 @@ Từ đây ta có thể chạy chương trình:
 $ node .
 ```
 > _Lưu ý_: trên đầu mỗi file .js nên sử dụng ‘use strict’.
+
 ## Cài đặt một module mới bằng npm
 Cài đặt module node.js lên hệ điều hành
 ```sh
@@ -105,10 +106,11 @@ Chúng ta bắt đầu từ đây.
 Hãy làm các công việc sau: 
 -	Viết function in ra tất cả các thành viên ra console, bao gồm: tên, ngày sinh, giới tính, phòng ban
 > Đặt ‘use strict’ lên đầu tất cả các file .js
+
 -	Viết chương trình tìm kiếm một thành viên theo username và in ra màn hình.
 > Mỗi yêu cầu được viết trong một Function
-
 > Nên tách việc in thành viên ra màn hình console thành một function độc lập
+
 -	Sắp xếp các thành viên theo tên và in kết quả ra màn hình.
 -	Đảo ngược danh sách thành viên và in ra màn hình.
 -	Tách các hàm thực hiện việc in ra console, tìm kiếm, sắp xếp, đảo ngược thành một file riêng có tên students.js, file này sẽ được sử dụng như một module riêng biệt, và index.js sẽ sử dụng các hàm này từ students.js 
