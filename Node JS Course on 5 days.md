@@ -283,6 +283,7 @@ o	…
 -	Mỗi Đội có nhiều thành viên tham gia.
 
 > Vẽ mối quan hệ CSDL bằng công cụ http://draw.io/ và export ra dạng hình ảnh.
+
 ## Sử dụng các lệnh LoopBack để cài đăt Database đã thiết kế
 ```sh
 $ slc loopback:model YourModel
@@ -294,6 +295,7 @@ $ slc loopback:relation
 ### Viết chương trình Auto Migrate và Auto Update để cài đặt dữ liệu trong 2 files sau đây vào DataBase :
 - data/members.json 
 - data/groups.json
+
 > Sử dụng thư viện Promise hoặc Async để tránh Callback Hell. Đây là yêu cầu bắt buộc
 
 
