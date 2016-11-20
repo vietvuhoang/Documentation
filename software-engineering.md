@@ -51,5 +51,20 @@ This age, there are so many technologies allow us to do this work perfectly:
 - Jenkins CI
 - Capistrano
 
-We will comeback with them in another article. 
+We will comeback with them in another part.
+
+## Build Statergy
+
+There are 3 principles we must take care when prepare Build Environment:
+
+- Technical that project uses: .Net, Java, PHP, NodeJS...
+- The Target Environments: How many and What is it: Windows, CentOS, Ubuntu...
+- The time to build: Trigger Build, Nighty Build or On Demand
+
+### Jenkins CI - The Master
+
+### Jenkins Slave - The Build Node
+
+### Using Capistrano for Building
+
 
