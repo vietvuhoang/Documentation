@@ -55,11 +55,33 @@ Các cơ sở dữ liệu dạng Document: MongoDB, Couchbase.
 
 ## Column Family Databases
 
-Column Family database lưu trữ dữ liệu tại cells of columns 
+Column Family database sử dụng concept gọi là keyspace. Keyspace tương đương với Schema trong Rational Database. Keyspace chứa tất cả các Column Family. 
+
+![Keyspace](./imgs/keyspace.png)
+
+Vậy Column Family là gì? Hãy xem một ví dụ về Column Family lưu thông tin User Profile như sau:
+
+![Column Family](./imgs/column_family.png)
+
+Như vậy, mỗi _**Column Family**_ chứa các _**Rows**_, mỗi _**Row**_ chứa các _**Columns**_, Mỗi _**Column**_ có tên chính là từng attribute của _Object_ và _Value_, cùng _timestamp_.
+
+![Row](./imgs/row.png)
+
+Như vậy nếu so sánh với Rational Database ta thấy rõ sự khác biệt: Mỗi _Table_ có nhiều rows, mỗi rows là một _object_ với các _column_ là các _attributes_, điều này cũng có nghĩa tất cả các _object_ thuộc một table sẽ được lưu vào cùng một nơi.
+
+Với cách tiếp cận của Column Family, mỗi _object_ được lưu vào 1 _row_ trong Column Family, và dễ dàng phân tán ở nhiều nơi. 
+
+_**Column Family**_ mang lại các lợi ích như sau:
+- Hiệu quả khi nén (Compression) hoặc phân vùng dữ liệu
+- Dễ mở rộng
+- Truy vấn và load dữ liệu nhanh
+
+Các hệ cơ sở dữ liệu loại Column Family: BigTable, Cassandra, HBase...
+
 
 ## Graph Databases
 
-d
+
 
 ## Reference 
 
