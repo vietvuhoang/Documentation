@@ -81,7 +81,13 @@ Các hệ cơ sở dữ liệu loại Column Family: BigTable, Cassandra, HBase.
 
 ## Graph Databases
 
+**Graph Database** chú trọng vào mối quan hệ giữa các đối tượng trong hệ thống. Ví dụ điển hình là trong mạng xã hội Facebook, bạn có bài viết nào, được tag vào ở bài viết nào, có mối quan hệ với ai... điều đó được thể hiện trong các _Nodes_ và _Relationships_ của _**Graph Database**_.
 
+![Graph Databases](./imgs/graphs.png)
+
+**Graph Database** bao gồm các _Nodes_, và _Relationships_ giữa các _Nodes_. cả  _Nodes_ và _Relationships_ đều có các thuộc tính gọi là _properties_. _Nodes_ là các thực thể trong graph và có thể được gắn các _Lable_ cung cấp _context_ và _metadata_. Trong khi đó _Relationships_ cung cấp sự kết nối trực tiếp, đơn phương hay song phương giữa hai _Notes_. Có thể có nhiều hơn 1 mối quan hệ (_relationships_) giữa hai _Nodes_ và mỗi mối quan hệ có hướng, kiểu, điểm đầu (_Start Node_) và điểm cuối (_End Node_). 
+
+Ví dụ cho loại cơ sở dữ liệu này là _Neo4j_.
 
 ## Reference 
 
@@ -91,3 +97,6 @@ Các hệ cơ sở dữ liệu loại Column Family: BigTable, Cassandra, HBase.
 
 [What is a Column Store Database?](https://database.guide/what-is-a-column-store-database/)
 
+## Video
+
+[![GOTO 2012 • Introduction to NoSQL • Martin Fowler](https://img.youtube.com/vi/qI_g07C_Q5I/0.jpg) ](https://www.youtube.com/watch?v=qI_g07C_Q5I "GOTO 2012 • Introduction to NoSQL • Martin Fowler")
