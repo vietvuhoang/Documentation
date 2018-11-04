@@ -3,7 +3,7 @@
 **_NoSQL_**, được viết tắt bởi **_"Not Only SQL"_** là phương pháp thiết kế Database thay thế cho Cơ Sở Dữ liệu truyền thống (**_RDBMS_**). 
 
 Với các hệ thống cơ sở dữ liệu truyền thống ( _RDBMS_ ), hệ thống các bảng, các mối quan hệ, cấu trúc dữ liệu thường được thiết kế cẩn thận trước khi triển khai, điều này cũng có nghĩa rằng việc thay đổi cấu trúc dữ liệu sẽ trở bên khó khăn và hiếm khi xảy ra trong các phiên bản phần mềm. 
-Ngày nay, với nhu cầu sử dụng dữ liệu lớn, các hệ thống cơ sở dữ liệu truyền thống, thường được thiết kế để chạy trên một server mạnh, thường gặp khó khăn trong việc nâng cấp, mở rộng (large scale-out) với chi phí đắt đỏ. 
+Ngày nay, với nhu cầu sử dụng dữ liệu lớn, các hệ thống cơ sở dữ liệu truyền thống, được thiết kế để chạy trên một server mạnh, thường gặp khó khăn trong việc nâng cấp, mở rộng (large scale-out) với chi phí đắt đỏ. 
 
 ![SQL](./imgs/sql.png "Hard to scale-out with SQL")
 
