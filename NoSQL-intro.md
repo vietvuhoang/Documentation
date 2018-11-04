@@ -1,4 +1,3 @@
-
 # Giới thiệu về NoSQL
 
 **_NoSQL_**, được viết tắt bởi **_"Not Only SQL"_** là phương pháp thiết kế Database thay thế cho Cơ Sở Dữ liệu truyền thống (**_RDBMS_**). 
@@ -89,7 +88,7 @@ Các hệ cơ sở dữ liệu loại Column Family: BigTable, Cassandra, HBase.
 
 Ví dụ cho loại cơ sở dữ liệu này là _Neo4j_.
 
-## Reference 
+## Tổng hợp và lược dịch 
 
 [NoSQL (Not Only SQL database)](https://searchdatamanagement.techtarget.com/definition/NoSQL-Not-Only-SQL "NoSQL (Not Only SQL database)")
 
@@ -97,6 +96,10 @@ Ví dụ cho loại cơ sở dữ liệu này là _Neo4j_.
 
 [What is a Column Store Database?](https://database.guide/what-is-a-column-store-database/)
 
-## Video
+## Video Blog
 
 [![GOTO 2012 • Introduction to NoSQL • Martin Fowler](https://img.youtube.com/vi/qI_g07C_Q5I/0.jpg) ](https://www.youtube.com/watch?v=qI_g07C_Q5I "GOTO 2012 • Introduction to NoSQL • Martin Fowler")
+
+## Sách tham khảo
+
+[NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence](https://martinfowler.com/books/nosql.html "NoSQL Distilled")
